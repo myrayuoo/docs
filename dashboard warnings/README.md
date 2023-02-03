@@ -1,7 +1,9 @@
 # Dashboard Warnings
-- You are can sometimes see them on the dashboard at the top of the page. [!image](<https://xello.blue/usercontent/ebDqIhglTZ.png>) They indicate some type of warning or announcement, which is determined by the color/severity.
+- You are can sometimes see them on the dashboard at the top of the page. They indicate some type of warning or announcement, which is determined by the color/severity.
 - You can add or remove them in `localstorage/config.json` under `dashboard-warning` 
 - Currently there isn't an automated way to add or remove them (may be added in the future)
+
+[!image](<https://xello.blue/usercontent/ebDqIhglTZ.png>)
 
 ## Example:
 ```json
