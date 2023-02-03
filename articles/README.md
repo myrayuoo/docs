@@ -2,7 +2,10 @@
 You can find all of them at [xello.blue/a](<https://xello.blue/a>) and are stored in localstorage/news.json
 
 
+
 ## Structure
+
+
 - This is the example of what is stored in the database
 ```json
 {
@@ -17,17 +20,21 @@ You can find all of them at [xello.blue/a](<https://xello.blue/a>) and are store
 
 
 ## Posting an article
+
+
 You can add an article by using the [admin dashboard](<https://xello.blue/admin>) or our [tool (recommended)](<https://github.com/Xello-Blue/tools/blob/main/post%20article.py>) written in python
 
+
 ### Admin Dashboard
+
 - Go to https://xello.blue/admin and log in
 - Enter the api key into the api key slot ![image](<https://xello.blue/usercontent/oXYROQSZZc.png>)
 - Scroll down to section called 'Write an article'
 - Fill out the information
 - Click the 'post' button
 
-
 ### Python Tool
+
 #### Setup
 - Download python (idealy 3.10+) if you don't have already
 - Download requests library if you don't have already (`python -m pip install requests` or `python3 -m pip install requests`) 
@@ -41,9 +48,18 @@ You can add an article by using the [admin dashboard](<https://xello.blue/admin>
 - Afterwards it should be automatically uploaded to the server
 
 
+## Pinned Article
+This is an article that is pinned, meaning it is displayed on the dashboard's home page. You can change the pinned article in localstorage/config.json
+To change the pinned article go to config.json and under "pinnedArticle" change the value to your desired article's id.
+
+
+
 # Code Examples
 
+
 ## How to post an article
+
+
 1. Importing the required libraries 
 ```py
 import json
