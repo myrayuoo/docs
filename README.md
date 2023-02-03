@@ -1,3 +1,3 @@
 # Xello.Blue
 
-The documentation for Xello.Blue maintenance
+ - [Documentation](<https://wiki.github.com/Xello-Blue/xello-blue>)
