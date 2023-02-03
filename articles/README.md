@@ -1,7 +1,22 @@
 # Articles
-- You can find all of them at [xello.blue/a](<https://xello.blue/a>)
+You can find all of them at [xello.blue/a](<https://xello.blue/a>) and are stored in localstorage/news.json
 
-## Adding an article
+
+## Structure
+- This is the example of what is stored in the database
+```json
+{
+    "title": "The header for the article",
+    "id": "Article ID (uuid)",
+    "author": "Author (uuid)",
+    "views": the number of views (integer),
+    "content": "content of the article",
+    "spoiler": "The text that will be displayed on 3rd party websites (like discord or twitter) or on dashboard"
+  }
+```
+
+
+## Posting an article
 You can add an article by using the [admin dashboard](<https://xello.blue/admin>) or our [tool (recommended)](<https://github.com/Xello-Blue/tools/blob/main/post%20article.py>) written in python
 
 ### Admin Dashboard
@@ -11,14 +26,19 @@ You can add an article by using the [admin dashboard](<https://xello.blue/admin>
 - Fill out the information
 - Click the 'post' button
 
+
 ### Python Tool
 #### Setup
 - Download python (idealy 3.10+) if you don't have already
 - Download requests library if you don't have already (`python -m pip install requests` or `python3 -m pip install requests`) 
 - Create a file called article.content.html
+- Create a file called APIKEY and paste the api key into it
 
 #### Usage
 - Write an article in article.content.html
 - Change the authorUUID to your uuid
 - Run the script and enter the needed information
-- 
+- Afterwards it should be automatically uploaded to the server
+
+
+# Code example
