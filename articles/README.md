@@ -63,11 +63,11 @@ payload = {
 
 3. Create a variable for the api key
 ```py
-api_key = "paste the key here"
+api_key = "paste the key here" 
 ```
 
 4. Post the request to the server
 ```py
-response = requests.post(f"https://xello.blue/article/upload?key={api_key}")
-print(json.loads(response.content))
+response = requests.post(f"https://xello.blue/article/upload?key={api_key}", json=payload) #Sends a POST Request to the server with the api key and the payload
+print(json.loads(response.content)) #Shows the server response
 ```
