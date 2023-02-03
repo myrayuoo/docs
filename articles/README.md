@@ -41,4 +41,11 @@ You can add an article by using the [admin dashboard](<https://xello.blue/admin>
 - Afterwards it should be automatically uploaded to the server
 
 
-# Code example
+# Code examples
+
+## How to post an article
+1. Importing the required libraries
+```py
+import requests
+```
+
