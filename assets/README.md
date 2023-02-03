@@ -1,9 +1,7 @@
-[BANNERS]
+# Assets
 
-template: banner-template.png
-width: 2048px
-height: 512px
-
-font: Hevitas
-bg color: #A79FFF
-text color: transparent
+## Banners
+- For banners use `banner-template.png`
+- The template has a width of 2048px and height of 512px
+- Background color is `#A79FFF` (hex)
+- Used font is called `Hevitas` and the color of the text should be transparent
