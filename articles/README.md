@@ -41,11 +41,33 @@ You can add an article by using the [admin dashboard](<https://xello.blue/admin>
 - Afterwards it should be automatically uploaded to the server
 
 
-# Code examples
+# Code Examples
 
 ## How to post an article
-1. Importing the required libraries
+1. Importing the required libraries 
 ```py
+import json
 import requests
+
+#Download using "python -m pip install requests" or "python3 -m pip install requests"
+```
+2. Set the payload for the request
+```py
+payload = {
+    "authorUUID": "", #Author of the article (uuid)
+    "title": "", #The header for the article
+    "spoiler": "", #The text that will be displayed on 3rd party websites (like discord or twitter) or on dashboard
+    "content": "" #Content of the article
+}
 ```
 
+3. Create a variable for the api key
+```py
+api_key = "paste the key here"
+```
+
+4. Post the request to the server
+```py
+response = requests.post(f"https://xello.blue/article/upload?key={api_key}")
+print(json.loads(response.content))
+```
