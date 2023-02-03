@@ -2,8 +2,8 @@
 - You are can sometimes see them on the dashboard at the top of the page. They indicate some type of warning or announcement, which is determined by the color/severity.
 - You can add or remove them in `localstorage/config.json` under `dashboard-warning` 
 - Currently there isn't an automated way to add or remove them (may be added in the future)
+![image](https://user-images.githubusercontent.com/83588955/216693011-8ba2a4b7-1b97-4620-9cb6-01565a434f25.png)
 
-[!image](<https://xello.blue/usercontent/ebDqIhglTZ.png>)
 
 ## Example:
 ```json
