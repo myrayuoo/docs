@@ -40,4 +40,17 @@ u = user object
 u.remove_badge(badge_id)
 ```
 
+## Badge list
 
+|Name|ID|Icon|
+|----|--|----|
+|Developer|DEVELOPER|code|
+|Staff|STAFF|screwdriver-wrench|
+|Moderator|MOD|shield-halved|
+|Contributor|CONTRIBUTOR|code-merge|
+|Beta Tester|BETAUSER|flask-vial|
+|Bug Hunter|BUGHUNTER_LVL1|bug|
+|Verified User|VERIFIED|award|
+|Early User|EARLYUSER|user-astronaut|
+|Community Volunteer|COM_VOLUNTEER|seedling|
+|Lunar|LUNAR|venus|
