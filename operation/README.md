@@ -17,6 +17,13 @@ sudo screen -r [the numbers you just copied]
 
 You now can see traffic and execute code by typing it in. 
 
+## Staring web server
+
+To start the server SSH into the hosting and use the command below
+```sh
+sudo screen python3 api.py
+```
+
 ## Saving data
 
 Data is **automatically saved** every 5 minutes, but before **restarting** or **shutting down** the server we recommend **saving it by executing 2x** `ssave()`. If you are on **localhost** you can do it by using `save()` once.
