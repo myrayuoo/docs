@@ -12,3 +12,6 @@ sudo screen -ls
 sudo screen -r [the numbers you just copied]
 ```
 ![image](<https://xello.blue/usercontent/kgIXpBrrYv.png>)
+![image](<https://xello.blue/usercontent/YrZhOhxgLj.png>)
+
+You now can execute code by typing it in. 
