@@ -4,7 +4,7 @@
 
 ### Database
 - This is an example of what is saved in the database
-```py
+```json
 {
   "icon": "star",                         # The icon that represents the badge 
   "label": "A badge",                     # Text that will be shown once you hover over the badge
