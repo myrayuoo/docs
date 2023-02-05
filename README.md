@@ -1,4 +1,1 @@
-# Xello.Blue
-
-## What is here?
- - Documentation
+### Xello.Blue docs
