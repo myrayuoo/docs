@@ -37,3 +37,10 @@ After you have a user selected you can change their domain settings for example
 ```py
 get_user("[target username]", "username").domain = "user-edit-testing.xello.blue"
 ```
+
+To get the current value you can use print function without setting any value
+
+```py
+print( get_user("[target username]", "username").domain )
+#OUTPUT: user-edit-testing.xello.blue
+```
