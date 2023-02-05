@@ -11,5 +11,5 @@ Task is a way to communicate and receive information from a discord bot (taskbot
 
 ## Structure
 - task.task `string` = The task that you want to execute
-- task.args `list` =  
-- task.output `any` = The output (NULL: no output yet | None: failed | \*: success) 
+- task.args `list` = The arguments you are passing to the taskbot
+- task.output `any` = The output `NULL: no output yet` `None: failed` `*: success) `
