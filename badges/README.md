@@ -26,3 +26,18 @@ class badge:
     self.id = "BADGE"                         # ID that is stored in user object
 ``` 
 
+## Adding and removing a badge
+
+### Adding
+```py
+u = user object
+u.add_badge(badge_id)
+```
+
+### Removing
+```py
+u = user object
+u.remove_badge(badge_id)
+```
+
+
