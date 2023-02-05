@@ -44,3 +44,10 @@ To get the current value you can use print function without setting any value
 print( get_user("[target username]", "username").domain )
 #OUTPUT: user-edit-testing.xello.blue
 ```
+
+## Updating changes
+
+Before you make any changes you will need to save the data by using 2x `ssave()` on the cloud or just `save()` if you are on localhost. After that you can shutdown the server by using CTRL+C a few times. Upload the changes using FileZilla, WinSCP or any other FTP Client. Start the server by using
+```sh
+sudo screen python3 api.py
+```
