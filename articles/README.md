@@ -50,7 +50,7 @@ You can add an article by using the [admin dashboard](<https://xello.blue/admin>
 
 ## Pinned Article
 This is an article that is pinned, meaning it is displayed on the dashboard's home page. You can change the pinned article in localstorage/config.json
-To change the pinned article go to config.json and under "pinnedArticle" change the value to your desired article's id.
+To change the pinned article go to config.json and under `ARTICLE.pinned` change the value to your desired article's id.
 
 
 
