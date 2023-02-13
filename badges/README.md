@@ -50,6 +50,7 @@ u.remove_badge(badge_id)
 |Contributor|CONTRIBUTOR|code-merge|
 |Beta Tester|BETAUSER|flask-vial|
 |Bug Hunter|BUGHUNTER_LVL1|bug|
+|Blue+ Subscriber|PREMIUM_LVL1|gem|
 |Verified User|VERIFIED|award|
 |Early User|EARLYUSER|user-astronaut|
 |Community Volunteer|COM_VOLUNTEER|seedling|
